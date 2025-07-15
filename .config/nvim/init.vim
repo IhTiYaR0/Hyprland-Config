@@ -14,8 +14,8 @@ Plug 'dense-analysis/ale'                             " Линтер и авто
 Plug 'windwp/nvim-autopairs'
 
 " Подсветка и синтаксис
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'vim-python/python-syntax'                       " Улучшенная подсветка Python
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'vim-python/python-syntax'                       " Улучшенная подсветка Python
 
 " Файловый менеджер и поиск
 Plug 'preservim/nerdtree'                             " Дерево файлов

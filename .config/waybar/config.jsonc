@@ -7,12 +7,13 @@
   "spacing": 0,
   "margin-bottom": -4,
   "modules-left": [
-    "hyprland/workspaces",
+    // "hyprland/workspaces",
+    "clock",
     "mpris",
     "cava",
     "tray"
   ],
-  "modules-center": ["clock"],
+  "modules-center": ["custom/notification","hyprland/workspaces","custom/power"],
   "modules-right": [
     "network",
     // "battery",
@@ -20,9 +21,9 @@
     "pulseaudio",
     "cpu",
     "memory",
-    "backlight",
-    "custom/power",
-    "custom/notification"
+    "backlight"
+    // "custom/power",
+    // "custom/notification"
   ],
 
   "custom/power": {
@@ -76,26 +77,16 @@
   },
 
 
-   "hyprland/workspaces": {
+"hyprland/workspaces": {
      "disable-scroll": false,
      "all-outputs": true,
-     "format": "{icon}",
+     "format": "",
      "on-click": "activate",
      "persistent-workspaces": {
-    //  "*":[1,2,3,4,5,6,7]
-     },
-     "format-icons":{
-     // "1": "󰣇",
-     // "2": "",
-     // "3": "",
-     // "4": "󰇮",
-     // "5": "",
-     // "6": "",
-     // "7": ""
-	  // "active": ""
-     // "active": ""
-     }
-  },
+     "*":[1,2,3,4,5]
+     }},
+
+
 
   "network": {
     "format-wifi": " 󰤨 {essid} ",
