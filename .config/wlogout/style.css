@@ -1,0 +1,85 @@
+* {
+	background-image: none;
+	/* transition: 20ms; */
+  font-family: "CaskaydiaCove Nerd Font", "Font Awesome 6 Free", "Font Awesome 6 Free Solid";
+}
+window {
+	background-color: rgba(64, 74, 96, 0.0);
+	font-size: 14pt;
+}
+button {
+	font-size: 20px;
+	color: #D8DEE9;
+ 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 27%;
+	border-style: solid;
+	background-color: #404A60;
+	border: 2px solid #98DEF2;
+	border-radius: 10px;
+	transition: 150ms;
+}
+
+
+button:focus,
+button:active,
+button:hover {
+	font-weight: bold;
+}
+
+
+button:focus,
+button:active,
+button:hover {
+	border-radius: 16px;
+  	color: #000;
+	background-color: rgba(152, 222, 242, 0.8);
+	border: 2px solid #404A60;
+	transition: 150ms;
+}
+
+
+
+#lock {
+	margin: 10px;
+	background-image: image(url("icons/lock_white.png"));
+}
+
+#suspend {
+	margin: 10px;
+	background-image: image(url("icons/suspend_white.png"));
+}
+
+#shutdown {
+	margin: 10px;
+	background-image: image(url("icons/shutdown_white.png"));
+}
+
+#reboot {
+	margin: 10px;
+	background-image: image(url("icons/reboot_white.png"));
+}
+
+#lock:hover, #lock:focus {
+	margin: 10px;
+	background-image: image(url("icons/lock_black.png"));
+}
+
+#suspend:hover, #suspend:focus {
+	margin: 10px;
+	background-image: image(url("icons/suspend_black.png"));
+}
+
+#shutdown:hover, #shutdown:focus {
+	margin: 10px;
+	background-image: image(url("icons/shutdown_black.png"));
+}
+
+#reboot:hover, #reboot:focus {
+	margin: 10px;
+	background-image: image(url("icons/reboot_black.png"));
+}
+
+/* #lock, #suspend, #shutdown, #reboot {
+	border-radius: 10px;
+}  */
