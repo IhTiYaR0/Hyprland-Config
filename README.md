@@ -29,3 +29,14 @@ cd Hyprland-Config
 
 ---
 ## Потом скапируйте все пакеты из моей папки !
+поменяйте свой Shell 
+```bash 
+chsh -s /usr/bin/fish
+```
+
+## Что бы настроить NeoVim 
+```bash
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+потом можете пользоватся NeoVim
