@@ -1,14 +1,17 @@
+tty-clock
 btop
+lsd
 feh
 fish
 kitty
 neovim
 nwg-look
-spotify-tray-git
 sddm
-thunar
 vim
+thunar
+tumbler
 bat
+rofi
 cava
 fzf
 git
@@ -17,7 +20,6 @@ hyprlock
 hyprpicker
 qt5-wayland
 qt6-wayland
-slurp
 swaybg
 swaync
 swww
@@ -78,9 +80,7 @@ ttf-inconsolata-nerd
 ttf-intone-nerd
 ttf-iosevka-nerd
 ttf-iosevkaterm-nerd
-ttf-iosevkatermslab-nerd
 ttf-jetbrains-mono
-ttf-jetbrains-mono-nerd
 ttf-lekton-nerd
 ttf-liberation
 ttf-liberation-mono-nerd

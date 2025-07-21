@@ -196,6 +196,7 @@
 }
 
 .widget-title>button:hover {
+  /* background: #f7768e; */
   background: #f7768e;
   /* background: #fff; */
   color: @cc-bg;
@@ -281,18 +282,19 @@
   margin: 3px;
   padding: 0px 0px;
   /* background: @cc-bg; */
-  background: #fff;
-  border-radius: 400px;
-  color: @text-color;
+  background: #91D2E6;
+  border-radius: 4px;
+  /* color: @text-color; */
+  color: #000;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-  background: rgba(122, 162, 247, 1);
+  background: #A3BE8C;
   color: @cc-bg;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:checked {
-  background: rgb(158, 206, 106);
+  background: #FF7B87;
   color: @cc-bg;
 }
 

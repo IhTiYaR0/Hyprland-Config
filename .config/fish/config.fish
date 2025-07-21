@@ -3,7 +3,7 @@ if status is-interactive
 end
 function fish_greeting; end
 
-function fish_prompt
+    function fish_prompt
         set -g fish_prompt_pwd_dir_length 2  # Показываем только 2 уровня пути
         set_color "#91D2E6"
         # echo -n (string replace -r "^$HOME!" "/home/$USER" [(string replace -r -a '^.' '\U$0' $USER)(prompt_pwd)])
@@ -38,12 +38,13 @@ set -U fish_color_normal '#50FA7B'
 set -U fish_color_error '#FF5555'
 
 
+#My Alias
 alias n='nvim'
 alias v='nvim'
 alias ls='lsd --group-dirs=first --icon=always --color=always --size=short'
 alias la='lsd -a --group-dirs=first --icon=always --color=always --size=short'
 alias lst='lsd -a --tree --depth 2 --icon=always --color=always'
 alias cl='clear'
-alias rms='sudo rm -rf'
+alias ff='catnap'
 
 

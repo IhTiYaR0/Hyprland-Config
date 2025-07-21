@@ -57,8 +57,12 @@
     "buttons-grid": {
       "actions": [
         {
-          "label": "󰆴",
-          "command": "swaync-client -C"
+          "label": "󰖩",
+          "command": "kitty --hold -e nmtui"
+        },
+        {
+          "label": "󰂯",
+          "command": "blueman-manager"
         },
         {
           "label": "󰕾",
@@ -71,12 +75,8 @@
           "type": "toggle"
         },
         {
-          "label": "󰖩",
-          "command": "nmtui"
-        },
-        {
-          "label": "󰂯",
-          "command": "blueman-manager"
+          "label": "󰆴",
+          "command": "swaync-client -C"
         }
       ]
     }

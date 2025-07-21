@@ -1,3 +1,4 @@
+neofetch
 crunch
 gray-git
 hyprdim
@@ -9,3 +10,5 @@ wlogout
 xf86-video-vmware
 swaync
 yay
+catnap-git
+cmatrix
