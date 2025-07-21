@@ -27,7 +27,7 @@
 | Browser 🌐        | [firefox](https://github.com/topics/firefox-browser) |
 | Bar 📊            | [waybar](https://github.com/Alexays/Waybar)      |
 | Terminal 🖥️       | [kitty](https://github.com/kovidgoyal/kitty)        |
-| Shell 🐚          | [fish](httphttps://github.com/fish-shell/fish-shell) |
+| Shell 🐚          | [fish](https://github.com/fish-shell/fish-shell) |
 | Editor 📝         | [neovim](https://github.com/neovim/neovim)      |
 | Launcher 🚀       | [wofi](https://github.com/SimplyCEO/wofi)          |
 | Wallpaper         | [swww](https://github.com/SimplyCEO/wofi)          |
