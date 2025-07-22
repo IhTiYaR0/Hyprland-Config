@@ -1,7 +1,7 @@
 ![decorative image](https://camo.githubusercontent.com/91cd2f143058a9c8d21ac3d58a70b77e133d24a774fe055ce72a4a366a0f7a1f/68747470733a2f2f692e696d6775722e636f6d2f565a4f796d49662e706e67)
 
 <h1 align="center" style="font-size: 70px; font-weight: bold;">
-  💎️ IHTI - Hyprland-Config 1.5 💎️
+  💎️ IHTI - Hyprland-Config 2.0 💎️
 </h1>
 <p align="center">
   <img src="https://img.shields.io/badge/LAST%20COMMIT-July%202025-purple?style=for-the-badge&color=green" alt="Last Commit" />
